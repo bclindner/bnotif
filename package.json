@@ -1,0 +1,10 @@
+{
+  "name": "bnotif",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "bclindner",
+  "dependencies": {
+    "node-fetch": "^2.2.0"
+  }
+}
