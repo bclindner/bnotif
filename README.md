@@ -37,9 +37,9 @@ bnotif.send('hello!', {
 })
 ```
 
-This returns a Promise.all which will resolve if all is well or reject if any of the notifications fail to send. It's okay to only send to one or any combination of these services by just adding or removing the necessary part of the configuration!
+This returns a Promise.all which will resolve if all is well or reject if any of the notifications fail to send. **It's okay to only send to one or any combination of these services** - just add or remove the necessary part of the configuration!
 
-If you want to call a single service, you can just call it by name and reduce your configuration accordingly:
+If you want to call a single service, you can just call it by name (e.g. `bnotif.groupme(msg, options)`) and reduce your configuration accordingly:
 
 ```js
 bnotif.pushover('this message only sends through Pushover!', {
