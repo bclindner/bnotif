@@ -7,6 +7,8 @@
   "dependencies": {
     "node-fetch": "^2.2.0"
   },
+  "repository": "github@bclindner/bnotif",
+  "homepage": "https://github.com/bclindner/bnotif#readme",
   "devDependencies": {
     "eslint": "^5.7.0",
     "eslint-config-standard": "^12.0.0",
