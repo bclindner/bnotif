@@ -4,7 +4,7 @@ A simple, scrappy library I wrote for myself so I can easily pass arbitrary mess
 
 ## Using
 
-Usage is simple: get your keys for these services, then call `bnotif.send(msg, options)` to send a message. The options should contain an object of objects for each service you to send to, each with their own configuration.
+Usage is simple: get your keys for these services, then call `bnotif.send(msg, options)` to send a message. The options should contain an object of objects for each service you want to send to, each with their own configuration.
 
 Here's an example, with a config section for each currently supported service:
 
