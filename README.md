@@ -31,7 +31,7 @@ bnotif.send('hello!', {
   'groupme': {
     'botKeys': [
       '<insert your bot keys here>',
-      '<
+      '<you get the point>'
     ]
   }
 })
