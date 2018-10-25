@@ -13,7 +13,7 @@ async function sendMessage (msg, options) {
   if (options.pushover) {
     responses.concat(pushover(msg, options.pushover))
   }
-  return responses
+  return Promise.all(responses)
 }
 
 module.exports = {
