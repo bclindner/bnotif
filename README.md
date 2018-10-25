@@ -17,7 +17,7 @@ bnotif.send('hello!', {
     'userKeys': [
       '<insert any user keys you want here>',
       '<you can put as many keys as you want here>',
-      '<as long as there is one or more it's fine>'
+      '<as long as there is one or more it\'s fine>'
     ]
   },
   'discord': {
