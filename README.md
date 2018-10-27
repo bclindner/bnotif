@@ -31,7 +31,7 @@ bnotif.send('hello!', {
       '<your webhook endpoint here>',
       '<you can use a bot, webhooks, or both!>',
       '<if you use the embed property for the bot then it will still work here>',
-      '<if you use embeds they won't work the other way around though>'
+      '<if you use embeds they won\'t work the other way around though>'
     ]
   },
   'groupme': {
