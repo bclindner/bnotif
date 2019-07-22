@@ -2,7 +2,7 @@ const discord = require('./lib/discord.js')
 const groupme = require('./lib/groupme.js')
 const pushover = require('./lib/pushover.js')
 
-async function send (msg, config, options = {}) {
+function send (msg, config, options = {}) {
   let responses = []
   if (config.discord) {
     if ('discord' in options) {
