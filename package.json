@@ -5,7 +5,7 @@
   "license": "MIT",
   "author": "bclindner",
   "dependencies": {
-    "node-fetch": "^2.2.0"
+    "node-fetch": "^2.6.1"
   },
   "repository": "github@bclindner/bnotif",
   "homepage": "https://github.com/bclindner/bnotif#readme",
